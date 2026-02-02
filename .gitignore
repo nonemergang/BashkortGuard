@@ -3,6 +3,24 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# WireGuard конфиги и связанные файлы
+*.conf
+wg0-*.conf
+default.conf
+main_profile.conf
+client*.conf
+alinamalina.conf
+
+# Папка bin и Debug/Release (обычно игнорируют целиком)
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+net10.0-windows/
+win-x64/
+
 # User-specific files
 *.rsuser
 *.suo

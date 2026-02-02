@@ -7,8 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Connect" HorizontalAlignment="Left" Margin="213,328,0,0" VerticalAlignment="Top" Height="43" Width="132" Click="Button_Click" FontFamily="Bauhaus 93"/>
-        <Button Content="Disconnect&#xD;&#xA;" HorizontalAlignment="Left" Margin="481,332,0,0" VerticalAlignment="Top" Height="43" Width="130" Click="Button_Click_1"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="318*"/>
+            <ColumnDefinition Width="375*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Connect" HorizontalAlignment="Left" Margin="122,296,0,0" VerticalAlignment="Top" Height="35" Width="132" Click="Button_Click" FontFamily="Bauhaus 93" Grid.Column="1" Background="#FFC1E89D" Foreground="Black" BorderBrush="Black"/>
+        <Button HorizontalAlignment="Left" Margin="41,296,0,0" VerticalAlignment="Top" Height="35" Width="130" Click="Button_Click_1" Grid.Column="2" Content="Disconnect" FontFamily="Bauhaus 93" Background="#FFD67873" Foreground="Black" BorderBrush="Black" AutomationProperties.IsOffscreenBehavior="Onscreen"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="97,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" Height="18"/>
 
     </Grid>
 </Window>
