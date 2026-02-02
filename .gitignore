@@ -28,7 +28,7 @@ win-x64/
 *.userosscache
 *.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
+# User-specific files
 *.userprefs
 
 # Mono auto generated files
